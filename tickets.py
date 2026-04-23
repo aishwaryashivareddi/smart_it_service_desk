@@ -282,7 +282,7 @@ class TicketManager:
 
             # Escalation for P1 after 30 min, P2 after 2 hours
             threshold = ESCALATION_THRESHOLDS.get(t["priority"])
-            if threshold and elapsed > threshold and t["status"] != "Closed":
+            if threshold and elapsed > threshold:
                 alerts.append(f"  [!] ESCALATE {t['ticket_id']} ({t['priority']}) -- "
                               f"unresolved for {int(elapsed)} min -- {t['description'][:40]}")
                 log_event(f"ESCALATION: {t['ticket_id']} | {t['priority']} | unresolved {int(elapsed)} min")

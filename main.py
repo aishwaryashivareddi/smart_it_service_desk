@@ -110,7 +110,9 @@ def main():
             elif choice == "9":
                 monitor.display_health()
             elif choice == "10":
-                monitor.auto_generate_tickets()
+                updated = monitor.auto_generate_tickets()
+                if updated is not None:
+                    manager.tickets = updated
             elif choice == "11":
                 reporter.daily_summary()
             elif choice == "12":

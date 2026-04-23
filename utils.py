@@ -100,10 +100,14 @@ def backup_to_csv(tickets):
         log_event("Backup skipped — no tickets to export.")
         return
 
-    headers = list(tickets[0].keys())
+    # Collect ALL keys across all tickets (handles ProblemRecord extra fields)
+    all_keys = set()
+    for t in tickets:
+        all_keys.update(t.keys())
+    headers = sorted(all_keys)
     try:
         with open(BACKUP_FILE, "w", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=headers)
+            writer = csv.DictWriter(f, fieldnames=headers, extrasaction="ignore")
             writer.writeheader()
             writer.writerows(tickets)
         log_event(f"Backup created: {len(tickets)} tickets exported to backup.csv")

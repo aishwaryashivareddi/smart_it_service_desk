@@ -100,8 +100,11 @@ class Monitor:
             backup_to_csv(tickets)
             for tid in generated:
                 print(f"  [ALERT] Auto-ticket created: {tid}")
+            # Return the updated tickets so caller can sync
+            return tickets
         else:
             print("  [OK] All system metrics within normal range.")
+            return None
 
     @staticmethod
     def _create_system_ticket(tickets, description, priority):
