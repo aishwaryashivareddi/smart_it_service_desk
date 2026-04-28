@@ -5,30 +5,27 @@ This project implements ITIL principles to automate ticket management, SLA track
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 ```text
 smart_it_service_desk/
-├── main.py  
-├── tickets.py  
-├── monitor.py  
-├── reports.py  
-├── utils.py  
-├── logger.py  
-├── itil.py  
-├── requirements.txt  
-├── tests/  
-│   └── test_project.py  
-├── data/  
-│   ├── tickets.json  
-│   ├── logs.txt  
-│   ├── backup.csv  
-│   └── problems.json  
-└── README.md  
-```
----
+├── main.py
+├── tickets.py
+├── monitor.py
+├── reports.py
+├── utils.py
+├── logger.py
+├── itil.py
+├── requirements.txt
+├── tests/
+│   └── test_project.py
+├── data/
+│   ├── tickets.json
+│   ├── logs.txt
+│   ├── backup.csv
+│   └── problems.json
+└── README.md
 
 ## Features
-
 ### Ticket Management
 - Create Ticket  
 - View All Tickets  
@@ -78,9 +75,7 @@ If:
 - Disk < 10%  
 
 ➡ Automatically creates high-priority (P1) ticket  
-
 ---
-
 ### Reports
 
 - Daily Summary Report  
