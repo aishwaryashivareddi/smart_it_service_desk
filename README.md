@@ -6,7 +6,7 @@ This project implements ITIL principles to automate ticket management, SLA track
 ---
 
 ## Project Structure
-
+```text
 smart_it_service_desk/
 ├── main.py  
 ├── tickets.py  
@@ -24,7 +24,7 @@ smart_it_service_desk/
 │   ├── backup.csv  
 │   └── problems.json  
 └── README.md  
-
+```
 ---
 
 ## Features
