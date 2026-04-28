@@ -2,3 +2,182 @@
 [2026-04-23 15:35:49] Daily report generated -- Total: 0, Open: 0, Closed: 0, SLA Breached: 0
 [2026-04-23 15:39:40] System check — CPU: 16.5%, RAM: 62.7%, Disk Free: 76.9%
 [2026-04-23 15:39:56] Backup created: 2 tickets exported to backup.csv
+[2026-04-24 09:56:36] Application started.
+[2026-04-24 10:00:41] Backup created: 1 tickets exported to backup.csv
+[2026-04-24 10:00:41] Ticket created: TKT-001 | P3 | Incident | Server is down
+[2026-04-24 10:09:31] Backup created: 1 tickets exported to backup.csv
+[2026-04-24 10:09:31] Ticket updated: TKT-001 | Open -> In Progress
+[2026-04-24 10:11:51] Backup created: 1 tickets exported to backup.csv
+[2026-04-24 10:11:51] Ticket closed: TKT-001
+[2026-04-24 10:14:31] Invalid menu input: ''
+[2026-04-24 10:14:36] System check — CPU: 21.6%, RAM: 92.0%, Disk Free: 64.1%
+[2026-04-24 10:17:26] Daily report generated -- Total: 1, Open: 0, Closed: 1, SLA Breached: 0
+[2026-04-24 10:28:49] Application started.
+[2026-04-24 10:31:30] Backup created: 2 tickets exported to backup.csv
+[2026-04-24 10:31:30] Ticket created: TKT-002 | P3 | Incident | server is down
+[2026-04-24 10:33:50] Backup created: 2 tickets exported to backup.csv
+[2026-04-24 10:33:50] Ticket updated: TKT-002 | Open -> In Progress
+[2026-04-24 10:34:40] Backup created: 2 tickets exported to backup.csv
+[2026-04-24 10:34:40] Ticket closed: TKT-002
+[2026-04-24 10:35:45] Backup created: 1 tickets exported to backup.csv
+[2026-04-24 10:35:45] Ticket deleted: TKT-002
+[2026-04-24 10:36:09] System check — CPU: 13.1%, RAM: 86.1%, Disk Free: 64.0%
+[2026-04-24 10:37:10] Daily report generated -- Total: 1, Open: 0, Closed: 1, SLA Breached: 0
+[2026-04-24 10:37:13] Daily report generated -- Total: 1, Open: 0, Closed: 1, SLA Breached: 0
+[2026-04-24 10:37:15] Monthly report generated -- 1 tickets, top issue: server is down, top dept: IT
+[2026-04-24 10:37:18] Daily report generated -- Total: 1, Open: 0, Closed: 1, SLA Breached: 0
+[2026-04-24 10:37:18] Monthly report generated -- 1 tickets, top issue: server is down, top dept: IT
+[2026-04-24 10:39:19] Backup created: 2 tickets exported to backup.csv
+[2026-04-24 10:39:19] Change Request created: TKT-002 | Upgrade server RAM
+[2026-04-24 10:39:27] Application exited.
+[2026-04-24 12:28:04] Application started.
+[2026-04-24 12:28:39] Backup created: 3 tickets exported to backup.csv
+[2026-04-24 12:28:39] Ticket created: TKT-003 | P3 | Incident | Server is down
+[2026-04-24 12:29:15] Backup created: 3 tickets exported to backup.csv
+[2026-04-24 12:29:15] Ticket updated: TKT-001 | Closed -> In Progress
+[2026-04-24 12:29:25] Backup created: 3 tickets exported to backup.csv
+[2026-04-24 12:29:25] Ticket closed: TKT-001
+[2026-04-24 12:29:41] Backup created: 2 tickets exported to backup.csv
+[2026-04-24 12:29:41] Ticket deleted: TKT-001
+[2026-04-24 12:29:50] System check — CPU: 25.0%, RAM: 85.9%, Disk Free: 64.0%
+[2026-04-24 12:30:00] Daily report generated -- Total: 2, Open: 2, Closed: 0, SLA Breached: 0
+[2026-04-24 12:30:05] Application exited.
+[2026-04-28 10:44:13] Backup created: 3 tickets exported to backup.csv
+[2026-04-28 10:44:13] Ticket created: TKT-004 | P1 | Incident | Server Down
+[2026-04-28 10:44:13] Backup created: 4 tickets exported to backup.csv
+[2026-04-28 10:44:13] Ticket created: TKT-005 | P4 | Service Request | Password Reset
+[2026-04-28 10:45:27] Application started.
+[2026-04-28 10:46:06] Backup created: 5 tickets exported to backup.csv
+[2026-04-28 10:46:06] Ticket created: TKT-006 | P3 | Incident | Server is Down
+[2026-04-28 10:48:58] Backup created: 6 tickets exported to backup.csv
+[2026-04-28 10:48:58] Ticket created: TKT-007 | P1 | Incident | Server Down
+[2026-04-28 10:50:10] ERROR: AttributeError: 'TicketManager' object has no attribute 'view_all_tickets'
+[2026-04-28 10:50:19] SLA BREACHED: TKT-002 | P3 | [CHANGE REQUEST] Upgrade server RAM | Reason: Improve system performance and handle high server load
+[2026-04-28 10:50:19] SLA BREACHED: TKT-003 | P3 | Server is down
+[2026-04-28 10:50:19] Backup created: 6 tickets exported to backup.csv
+[2026-04-28 10:50:28] System check — CPU: 23.3%, RAM: 87.0%, Disk Free: 65.3%
+[2026-04-28 10:50:34] Daily report generated -- Total: 4, Open: 4, Closed: 0, SLA Breached: 0
+[2026-04-28 10:50:36] Monthly report generated -- 6 tickets, top issue: server is down, top dept: IT
+[2026-04-28 10:50:37] Daily report generated -- Total: 4, Open: 4, Closed: 0, SLA Breached: 0
+[2026-04-28 10:50:37] Monthly report generated -- 6 tickets, top issue: server is down, top dept: IT
+[2026-04-28 11:04:21] Application interrupted by user.
+[2026-04-28 11:04:34] Backup created: 7 tickets exported to backup.csv
+[2026-04-28 11:04:34] Ticket created: TKT-008 | P1 | Incident | Server Down
+[2026-04-28 11:04:34] Backup created: 8 tickets exported to backup.csv
+[2026-04-28 11:04:34] Ticket created: TKT-009 | P4 | Service Request | Password Reset
+[2026-04-28 11:04:41] Application started.
+[2026-04-28 11:05:07] Backup created: 9 tickets exported to backup.csv
+[2026-04-28 11:05:07] Ticket created: TKT-010 | P1 | Incident | Server Down
+[2026-04-28 11:06:02] Backup created: 9 tickets exported to backup.csv
+[2026-04-28 11:06:02] Ticket updated: TKT-010 | Open -> In Progress
+[2026-04-28 11:06:11] Backup created: 9 tickets exported to backup.csv
+[2026-04-28 11:06:11] Ticket closed: TKT-010
+[2026-04-28 11:06:18] Backup created: 8 tickets exported to backup.csv
+[2026-04-28 11:06:18] Ticket deleted: TKT-010
+[2026-04-28 11:06:31] System check — CPU: 18.4%, RAM: 89.6%, Disk Free: 65.3%
+[2026-04-28 11:06:36] Daily report generated -- Total: 6, Open: 6, Closed: 0, SLA Breached: 0
+[2026-04-28 11:06:40] Monthly report generated -- 8 tickets, top issue: server down, top dept: IT
+[2026-04-28 11:06:44] Daily report generated -- Total: 6, Open: 6, Closed: 0, SLA Breached: 0
+[2026-04-28 11:06:44] Monthly report generated -- 8 tickets, top issue: server down, top dept: IT
+[2026-04-28 13:07:31] Application interrupted by user.
+[2026-04-28 13:07:40] Backup created: 9 tickets exported to backup.csv
+[2026-04-28 13:07:40] Ticket created: TKT-010 | P1 | Incident | Server Down
+[2026-04-28 13:07:40] Backup created: 10 tickets exported to backup.csv
+[2026-04-28 13:07:40] Ticket created: TKT-011 | P4 | Service Request | Password Reset
+[2026-04-28 13:07:40] Backup created: 11 tickets exported to backup.csv
+[2026-04-28 13:07:40] Ticket created: TKT-012 | P1 | Incident | Server Down
+[2026-04-28 13:07:40] Backup created: 12 tickets exported to backup.csv
+[2026-04-28 13:07:40] PROBLEM RECORD auto-created: TKT-013 | 'Server Down' occurred 5 times
+[2026-04-28 13:07:40] Backup created: 13 tickets exported to backup.csv
+[2026-04-28 13:07:40] Ticket created: TKT-014 | P3 | Incident | Laptop Slow
+[2026-04-28 13:12:03] Backup created: 14 tickets exported to backup.csv
+[2026-04-28 13:12:03] Ticket created: TKT-015 | P1 | Incident | Server Down
+[2026-04-28 13:12:03] Backup created: 15 tickets exported to backup.csv
+[2026-04-28 13:12:03] Ticket created: TKT-016 | P4 | Service Request | Password Reset
+[2026-04-28 13:12:03] Backup created: 16 tickets exported to backup.csv
+[2026-04-28 13:12:03] Ticket created: TKT-017 | P1 | Incident | Server Down
+[2026-04-28 13:12:03] Backup created: 17 tickets exported to backup.csv
+[2026-04-28 13:12:03] Ticket created: TKT-018 | P3 | Incident | Laptop Slow
+[2026-04-28 13:12:11] Application started.
+[2026-04-28 13:12:45] Backup created: 18 tickets exported to backup.csv
+[2026-04-28 13:12:45] Ticket created: TKT-019 | P1 | Incident | server Down
+[2026-04-28 13:13:21] SLA BREACHED: TKT-004 | P1 | Server Down
+[2026-04-28 13:13:21] SLA BREACHED: TKT-007 | P1 | Server Down
+[2026-04-28 13:13:21] SLA BREACHED: TKT-008 | P1 | Server Down
+[2026-04-28 13:13:21] Backup created: 18 tickets exported to backup.csv
+[2026-04-28 13:13:23] ESCALATION: TKT-004 | P1 | unresolved 149 min
+[2026-04-28 13:13:23] ESCALATION: TKT-007 | P1 | unresolved 144 min
+[2026-04-28 13:13:23] ESCALATION: TKT-008 | P1 | unresolved 128 min
+[2026-04-28 13:13:26] System check — CPU: 9.8%, RAM: 85.2%, Disk Free: 65.3%
+[2026-04-28 13:13:33] Daily report generated -- Total: 16, Open: 16, Closed: 0, SLA Breached: 3
+[2026-04-28 13:13:35] Monthly report generated -- 18 tickets, top issue: server down, top dept: IT
+[2026-04-28 13:13:36] Daily report generated -- Total: 16, Open: 16, Closed: 0, SLA Breached: 3
+[2026-04-28 13:13:36] Monthly report generated -- 18 tickets, top issue: server down, top dept: IT
+[2026-04-28 13:15:44] Application interrupted by user.
+[2026-04-28 13:15:52] Application started.
+[2026-04-28 13:16:29] Backup created: 19 tickets exported to backup.csv
+[2026-04-28 13:16:29] Ticket created: TKT-020 | P1 | Incident | Server Down
+[2026-04-28 13:16:57] Backup created: 19 tickets exported to backup.csv
+[2026-04-28 13:16:57] Ticket updated: TKT-020 | Open -> In Progress
+[2026-04-28 13:17:05] Backup created: 19 tickets exported to backup.csv
+[2026-04-28 13:17:05] Ticket closed: TKT-020
+[2026-04-28 13:17:13] Backup created: 18 tickets exported to backup.csv
+[2026-04-28 13:17:13] Ticket deleted: TKT-020
+[2026-04-28 13:17:19] ESCALATION: TKT-004 | P1 | unresolved 153 min
+[2026-04-28 13:17:19] ESCALATION: TKT-007 | P1 | unresolved 148 min
+[2026-04-28 13:17:19] ESCALATION: TKT-008 | P1 | unresolved 132 min
+[2026-04-28 13:17:22] System check — CPU: 14.5%, RAM: 90.7%, Disk Free: 65.3%
+[2026-04-28 13:17:30] Daily report generated -- Total: 16, Open: 16, Closed: 0, SLA Breached: 3
+[2026-04-28 13:17:32] Monthly report generated -- 18 tickets, top issue: server down, top dept: IT
+[2026-04-28 13:17:33] Daily report generated -- Total: 16, Open: 16, Closed: 0, SLA Breached: 3
+[2026-04-28 13:17:33] Monthly report generated -- 18 tickets, top issue: server down, top dept: IT
+[2026-04-28 14:12:58] Application interrupted by user.
+[2026-04-28 14:13:09] Backup created: 19 tickets exported to backup.csv
+[2026-04-28 14:13:09] Ticket created: TKT-020 | P1 | Incident | Server Down
+[2026-04-28 14:13:10] Backup created: 20 tickets exported to backup.csv
+[2026-04-28 14:13:10] Ticket created: TKT-021 | P4 | Service Request | Password Reset
+[2026-04-28 14:13:10] Backup created: 21 tickets exported to backup.csv
+[2026-04-28 14:13:10] PROBLEM RECORD auto-created: TKT-022 | 'Password Reset' occurred 5 times
+[2026-04-28 14:13:10] Backup created: 22 tickets exported to backup.csv
+[2026-04-28 14:13:10] Ticket created: TKT-023 | P1 | Incident | Server Down
+[2026-04-28 14:13:10] Backup created: 23 tickets exported to backup.csv
+[2026-04-28 14:13:10] Ticket created: TKT-024 | P3 | Incident | Laptop Slow
+[2026-04-28 14:13:27] Backup created: 24 tickets exported to backup.csv
+[2026-04-28 14:13:27] Ticket created: TKT-025 | P1 | Incident | Server Down
+[2026-04-28 14:13:27] Backup created: 25 tickets exported to backup.csv
+[2026-04-28 14:13:27] Ticket created: TKT-026 | P4 | Service Request | Password Reset
+[2026-04-28 14:13:27] Backup created: 26 tickets exported to backup.csv
+[2026-04-28 14:13:27] Ticket created: TKT-027 | P1 | Incident | Server Down
+[2026-04-28 14:13:27] Backup created: 27 tickets exported to backup.csv
+[2026-04-28 14:13:27] Ticket created: TKT-028 | P3 | Incident | Laptop Slow
+[2026-04-28 14:23:15] Application started.
+[2026-04-28 14:23:37] Backup created: 28 tickets exported to backup.csv
+[2026-04-28 14:23:37] Ticket created: TKT-029 | P1 | Incident | Server Down
+[2026-04-28 14:24:47] Backup created: 28 tickets exported to backup.csv
+[2026-04-28 14:24:47] Ticket updated: TKT-029 | Open -> In Progress
+[2026-04-28 14:24:55] Backup created: 28 tickets exported to backup.csv
+[2026-04-28 14:24:55] Ticket closed: TKT-029
+[2026-04-28 14:25:01] Backup created: 27 tickets exported to backup.csv
+[2026-04-28 14:25:01] Ticket deleted: TKT-029
+[2026-04-28 14:25:02] SLA BREACHED: TKT-010 | P1 | Server Down
+[2026-04-28 14:25:02] SLA BREACHED: TKT-012 | P1 | Server Down
+[2026-04-28 14:25:02] SLA BREACHED: TKT-013 | P1 | PROBLEM: Server Down (occurred 5 times)
+[2026-04-28 14:25:02] SLA BREACHED: TKT-015 | P1 | Server Down
+[2026-04-28 14:25:02] SLA BREACHED: TKT-017 | P1 | Server Down
+[2026-04-28 14:25:02] SLA BREACHED: TKT-019 | P1 | server Down
+[2026-04-28 14:25:02] Backup created: 27 tickets exported to backup.csv
+[2026-04-28 14:25:03] ESCALATION: TKT-004 | P1 | unresolved 220 min
+[2026-04-28 14:25:03] ESCALATION: TKT-007 | P1 | unresolved 216 min
+[2026-04-28 14:25:03] ESCALATION: TKT-008 | P1 | unresolved 200 min
+[2026-04-28 14:25:03] ESCALATION: TKT-010 | P1 | unresolved 77 min
+[2026-04-28 14:25:03] ESCALATION: TKT-012 | P1 | unresolved 77 min
+[2026-04-28 14:25:03] ESCALATION: TKT-013 | P1 | unresolved 77 min
+[2026-04-28 14:25:03] ESCALATION: TKT-015 | P1 | unresolved 73 min
+[2026-04-28 14:25:03] ESCALATION: TKT-017 | P1 | unresolved 73 min
+[2026-04-28 14:25:03] ESCALATION: TKT-019 | P1 | unresolved 72 min
+[2026-04-28 14:25:06] System check — CPU: 10.8%, RAM: 84.9%, Disk Free: 65.2%
+[2026-04-28 14:25:10] Daily report generated -- Total: 25, Open: 25, Closed: 0, SLA Breached: 9
+[2026-04-28 14:25:12] Monthly report generated -- 27 tickets, top issue: server down, top dept: IT
+[2026-04-28 14:25:13] Daily report generated -- Total: 25, Open: 25, Closed: 0, SLA Breached: 9
+[2026-04-28 14:25:13] Monthly report generated -- 27 tickets, top issue: server down, top dept: IT
+[2026-04-28 14:37:55] Application interrupted by user.

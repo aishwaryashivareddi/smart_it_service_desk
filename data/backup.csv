@@ -1,3 +1,28 @@
-occurrence_count,status,ticket_id
-,Open,TKT-001
-5,Open,TKT-002
+category,closed_at,created_at,department,description,employee,occurrence_count,priority,sla_breached,status,ticket_id,type
+Change Request,,2026-04-24 10:39:19,IT,[CHANGE REQUEST] Upgrade server RAM | Reason: Improve system performance and handle high server load,Aishwarya,,P3,True,Open,TKT-002,Change Request
+Network,,2026-04-24 12:28:39,IT,Server is down,Aishwarya Shivareddi,,P3,True,Open,TKT-003,Incident
+Incident,,2026-04-28 10:44:13,IT,Server Down,Aish,,P1,True,Open,TKT-004,Incident
+Service,,2026-04-28 10:44:13,HR,Password Reset,User,,P4,False,Open,TKT-005,Service Request
+Network,,2026-04-28 10:46:06,IT,Server is Down,Aishwarya Shivareddi,,P3,False,Open,TKT-006,Incident
+NetWork,,2026-04-28 10:48:58,IT,Server Down,Aishwarya Shivareddi,,P1,True,Open,TKT-007,Incident
+Incident,,2026-04-28 11:04:34,IT,Server Down,Aish,,P1,True,Open,TKT-008,Incident
+Service,,2026-04-28 11:04:34,HR,Password Reset,User,,P4,False,Open,TKT-009,Service Request
+Incident,,2026-04-28 13:07:40,IT,Server Down,Aish,,P1,True,Open,TKT-010,Incident
+Service,,2026-04-28 13:07:40,HR,Password Reset,User,,P4,False,Open,TKT-011,Service Request
+Incident,,2026-04-28 13:07:40,IT,Server Down,Aish,,P1,True,Open,TKT-012,Incident
+Problem Management,,2026-04-28 13:07:40,IT,PROBLEM: Server Down (occurred 5 times),System,5,P1,True,Open,TKT-013,Problem Record
+Hardware,,2026-04-28 13:07:40,IT,Laptop Slow,Test,,P3,False,Open,TKT-014,Incident
+Incident,,2026-04-28 13:12:03,IT,Server Down,Aish,,P1,True,Open,TKT-015,Incident
+Service,,2026-04-28 13:12:03,HR,Password Reset,User,,P4,False,Open,TKT-016,Service Request
+Incident,,2026-04-28 13:12:03,IT,Server Down,Aish,,P1,True,Open,TKT-017,Incident
+Hardware,,2026-04-28 13:12:03,IT,Laptop Slow,Test,,P3,False,Open,TKT-018,Incident
+Network,,2026-04-28 13:12:45,CS,server Down,Alka S,,P1,True,Open,TKT-019,Incident
+Incident,,2026-04-28 14:13:09,IT,Server Down,Aish,,P1,False,Open,TKT-020,Incident
+Service,,2026-04-28 14:13:10,HR,Password Reset,User,,P4,False,Open,TKT-021,Service Request
+Problem Management,,2026-04-28 14:13:10,IT,PROBLEM: Password Reset (occurred 5 times),System,5,P1,False,Open,TKT-022,Problem Record
+Incident,,2026-04-28 14:13:10,IT,Server Down,Aish,,P1,False,Open,TKT-023,Incident
+Hardware,,2026-04-28 14:13:10,IT,Laptop Slow,Test,,P3,False,Open,TKT-024,Incident
+Incident,,2026-04-28 14:13:27,IT,Server Down,Aish,,P1,False,Open,TKT-025,Incident
+Service,,2026-04-28 14:13:27,HR,Password Reset,User,,P4,False,Open,TKT-026,Service Request
+Incident,,2026-04-28 14:13:27,IT,Server Down,Aish,,P1,False,Open,TKT-027,Incident
+Hardware,,2026-04-28 14:13:27,IT,Laptop Slow,Test,,P3,False,Open,TKT-028,Incident

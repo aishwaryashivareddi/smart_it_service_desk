@@ -57,6 +57,8 @@ class Monitor:
         return True
 
     def display_health(self):
+        
+        
         """Display current system health (Q6)."""
         print("\n-- System Health --")
         if not self.collect_metrics():
@@ -65,6 +67,10 @@ class Monitor:
         cpu_status = "[CRITICAL]" if self._cpu > SYSTEM_THRESHOLDS["cpu_percent"] else "[OK]"
         ram_status = "[CRITICAL]" if self._ram > SYSTEM_THRESHOLDS["ram_percent"] else "[OK]"
         disk_status = "[CRITICAL]" if self._disk_free < SYSTEM_THRESHOLDS["disk_free_percent"] else "[OK]"
+        
+        network = psutil.net_io_counters()
+        print(f" Network Sent:     {network.bytes_sent} bytes")
+        print(f" Network Received: {network.bytes_recv} bytes")
 
         print(f"  CPU Usage:       {self._cpu:>6.1f}%  {cpu_status}")
         print(f"  RAM Usage:       {self._ram:>6.1f}%  {ram_status}")

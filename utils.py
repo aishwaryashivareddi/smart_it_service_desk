@@ -140,3 +140,9 @@ def get_valid_input(prompt, allow_empty=False):
         if value or allow_empty:
             return value
         print("  [!] Input cannot be empty. Please try again.")
+
+def log_decorator(func):
+    def wrapper(*args, **kwargs):
+        print(f"[DEBUG] Executing: {func.__name__}")
+        return func(*args, **kwargs)
+    return wrapper
