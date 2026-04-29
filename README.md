@@ -5,130 +5,129 @@ This project implements ITIL principles to automate ticket management, SLA track
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-    ```text
-    smart_it_service_desk/
-    ├── main.py
-    ├── tickets.py
-    ├── monitor.py
-    ├── reports.py
-    ├── utils.py
-    ├── logger.py
-    ├── itil.py
-    ├── requirements.txt
-    ├── tests/
-    │   └── test_project.py
-    ├── data/
-    │   ├── tickets.json
-    │   ├── logs.txt
-    │   ├── backup.csv
-    │   └── problems.json
-    ├── screenshots/
-    └── README.md
+smart_it_service_desk/
+├── main.py  
+├── tickets.py  
+├── monitor.py  
+├── reports.py  
+├── utils.py  
+├── logger.py  
+├── itil.py  
+├── requirements.txt  
+├── tests/  
+│   └── test_project.py  
+├── data/  
+│   ├── tickets.json  
+│   ├── logs.txt  
+│   ├── backup.csv  
+│   └── problems.json  
+└── README.md  
 
-    🚀 Features
-    🎫 Ticket Management
-    Create Ticket
-    View All Tickets
-    Search Ticket by ID
-    Update Ticket Status
-    Close Ticket
-    Delete Ticket
+---
 
-    ⚡ Priority Logic
-    Issue	Priority
-    Server Down	P1
-    Internet Down	P2
-    Laptop Slow	P3
-    Password Reset	P4
-    ⏱ SLA Tracking
-    Priority	SLA
-    P1	1 Hour
-    P2	4 Hours
-    P3	8 Hours
-    P4	24 Hours
-    Detect SLA breaches
-    Generate escalation alerts
-    📊 System Monitoring
+🚀 Features
+🎫 Ticket Management
+Create Ticket
+View All Tickets
+Search Ticket by ID
+Update Ticket Status
+Close Ticket
+Delete Ticket
 
-    Monitors:
-    CPU Usage
-    RAM Usage
-    Disk Usage
-    Network Usage
+⚡ Priority Logic
+Issue	Priority
+Server Down	P1
+Internet Down	P2
+Laptop Slow	P3
+Password Reset	P4
+⏱ SLA Tracking
+Priority	SLA
+P1	1 Hour
+P2	4 Hours
+P3	8 Hours
+P4	24 Hours
+Detect SLA breaches
+Generate escalation alerts
+📊 System Monitoring
 
-    If:
-    CPU > 90%
-    RAM > 95%
-    Disk < 10%
+Monitors:
+CPU Usage
+RAM Usage
+Disk Usage
+Network Usage
 
-    ➡ Automatically creates high-priority (P1) ticket
+If:
+CPU > 90%
+RAM > 95%
+Disk < 10%
 
-    📈 Reports
-    Daily Summary Report
-    Monthly Trend Report
-    Full Report
+➡ Automatically creates high-priority (P1) ticket
+📈 Reports
+Daily Summary Report
+Monthly Trend Report
+Full Report
 
-    Includes:
+Includes:
 
-    Total tickets
-    Open / Closed tickets
-    High priority tickets
-    SLA breaches
-    Most common issues
-    Department analysis
+Total tickets
+Open / Closed tickets
+High priority tickets
+SLA breaches
+Most common issues
+Department analysis
 
-    📁 File Handling
-    JSON storage (tickets.json)
-    CSV backup (backup.csv)
-    Logging (logs.txt)
-    Problem tracking (problems.json)
+📁 File Handling
+JSON storage (tickets.json)
+CSV backup (backup.csv)
+Logging (logs.txt)
+Problem tracking (problems.json)
 
-    🧠 ITIL Concepts
-    Incident Management
-    Service Request Management
-    Problem Management (auto after 5 repeated issues)
-    Change Management
-    SLA Monitoring
+🧠 ITIL Concepts
+Incident Management
+Service Request Management
+Problem Management (auto after 5 repeated issues)
+Change Management
+SLA Monitoring
 
-    🧱 OOP Concepts
-    Classes & Objects
-    Inheritance
-    Encapsulation
-    Polymorphism
-    Static Methods
-    Class Methods
+🧱 OOP Concepts
+Classes & Objects
+Inheritance
+Encapsulation
+Polymorphism
+Static Methods
+Class Methods
+🧪 Testing
 
-    🧪 Testing
-    Run test cases:
-    python -m pytest
+Run test cases:
+python -m pytest
+⚙️ Installation & Run
+git clone https://github.com/aishwaryashivareddi/smart_it_service_desk.git
+cd smart_it_service_desk
+pip install -r requirements.txt
+python main.py
+📸 Screenshots
+Menu
 
-    ⚙️ Installation & Run
-    git clone https://github.com/aishwaryashivareddi/smart_it_service_desk.git
-    cd smart_it_service_desk
-    pip install -r requirements.txt
-    python main.py
+Create Ticket
+Ticket Details
+SLA & Escalation
+System Monitoring
+Daily Report
+Monthly Report
 
-    📸 Screenshots
-    Menu
-    Create Ticket
-    Ticket Details
-    SLA & Escalation
-    System Monitoring
-    Daily Report
-    Monthly Report
-
-    👩‍💻 Author
-
-    Aishwarya Shivareddi
+👩‍💻 Author
+Aishwarya Shivareddi
 
 
-    ---
+---
 
-# 🚀 FINAL STEP
+# 🚀 FINAL STEP (VERY IMPORTANT)
+
+After pasting:
 
 ```bash
-git add .
-git commit -m "Final README formatting"
+git add README.md
+git commit -m "Final clean README"
 git push origin main
