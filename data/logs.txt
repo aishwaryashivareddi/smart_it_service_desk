@@ -181,3 +181,68 @@
 [2026-04-28 14:25:13] Daily report generated -- Total: 25, Open: 25, Closed: 0, SLA Breached: 9
 [2026-04-28 14:25:13] Monthly report generated -- 27 tickets, top issue: server down, top dept: IT
 [2026-04-28 14:37:55] Application interrupted by user.
+[2026-04-28 15:07:21] Application started.
+[2026-04-28 15:08:22] Backup created: 28 tickets exported to backup.csv
+[2026-04-28 15:08:22] Ticket created: TKT-029 | P1 | Incident | Server Down
+[2026-04-28 15:08:57] Backup created: 27 tickets exported to backup.csv
+[2026-04-28 15:08:57] Ticket deleted: TKT-029
+[2026-04-28 15:09:02] ESCALATION: TKT-004 | P1 | unresolved 264 min
+[2026-04-28 15:09:02] ESCALATION: TKT-007 | P1 | unresolved 260 min
+[2026-04-28 15:09:02] ESCALATION: TKT-008 | P1 | unresolved 244 min
+[2026-04-28 15:09:02] ESCALATION: TKT-010 | P1 | unresolved 121 min
+[2026-04-28 15:09:02] ESCALATION: TKT-012 | P1 | unresolved 121 min
+[2026-04-28 15:09:02] ESCALATION: TKT-013 | P1 | unresolved 121 min
+[2026-04-28 15:09:02] ESCALATION: TKT-015 | P1 | unresolved 116 min
+[2026-04-28 15:09:02] ESCALATION: TKT-017 | P1 | unresolved 116 min
+[2026-04-28 15:09:02] ESCALATION: TKT-019 | P1 | unresolved 116 min
+[2026-04-28 15:09:02] ESCALATION: TKT-020 | P1 | unresolved 55 min
+[2026-04-28 15:09:02] ESCALATION: TKT-022 | P1 | unresolved 55 min
+[2026-04-28 15:09:02] ESCALATION: TKT-023 | P1 | unresolved 55 min
+[2026-04-28 15:09:02] ESCALATION: TKT-025 | P1 | unresolved 55 min
+[2026-04-28 15:09:02] ESCALATION: TKT-027 | P1 | unresolved 55 min
+[2026-04-28 15:09:05] System check — CPU: 8.3%, RAM: 86.3%, Disk Free: 65.2%
+[2026-04-28 15:09:09] Daily report generated -- Total: 25, Open: 25, Closed: 0, SLA Breached: 9
+[2026-04-28 15:09:11] Monthly report generated -- 27 tickets, top issue: server down, top dept: IT
+[2026-04-28 15:09:12] Daily report generated -- Total: 25, Open: 25, Closed: 0, SLA Breached: 9
+[2026-04-28 15:09:12] Monthly report generated -- 27 tickets, top issue: server down, top dept: IT
+[2026-04-29 11:02:20] Application started.
+[2026-04-29 11:03:38] Backup created: 28 tickets exported to backup.csv
+[2026-04-29 11:03:38] Ticket created: TKT-029 | P1 | Incident | Server Down
+[2026-04-29 11:06:22] Backup created: 28 tickets exported to backup.csv
+[2026-04-29 11:06:22] Ticket updated: TKT-029 | Open -> In Progress
+[2026-04-29 11:07:01] Backup created: 28 tickets exported to backup.csv
+[2026-04-29 11:07:01] Ticket closed: TKT-029
+[2026-04-29 11:07:41] Backup created: 27 tickets exported to backup.csv
+[2026-04-29 11:07:41] Ticket deleted: TKT-029
+[2026-04-29 11:08:25] SLA BREACHED: TKT-005 | P4 | Password Reset
+[2026-04-29 11:08:25] SLA BREACHED: TKT-006 | P3 | Server is Down
+[2026-04-29 11:08:25] SLA BREACHED: TKT-009 | P4 | Password Reset
+[2026-04-29 11:08:25] SLA BREACHED: TKT-014 | P3 | Laptop Slow
+[2026-04-29 11:08:25] SLA BREACHED: TKT-018 | P3 | Laptop Slow
+[2026-04-29 11:08:25] SLA BREACHED: TKT-020 | P1 | Server Down
+[2026-04-29 11:08:25] SLA BREACHED: TKT-022 | P1 | PROBLEM: Password Reset (occurred 5 times)
+[2026-04-29 11:08:25] SLA BREACHED: TKT-023 | P1 | Server Down
+[2026-04-29 11:08:25] SLA BREACHED: TKT-024 | P3 | Laptop Slow
+[2026-04-29 11:08:25] SLA BREACHED: TKT-025 | P1 | Server Down
+[2026-04-29 11:08:25] SLA BREACHED: TKT-027 | P1 | Server Down
+[2026-04-29 11:08:25] SLA BREACHED: TKT-028 | P3 | Laptop Slow
+[2026-04-29 11:08:25] Backup created: 27 tickets exported to backup.csv
+[2026-04-29 11:09:02] ESCALATION: TKT-004 | P1 | unresolved 1464 min
+[2026-04-29 11:09:02] ESCALATION: TKT-007 | P1 | unresolved 1460 min
+[2026-04-29 11:09:02] ESCALATION: TKT-008 | P1 | unresolved 1444 min
+[2026-04-29 11:09:02] ESCALATION: TKT-010 | P1 | unresolved 1321 min
+[2026-04-29 11:09:02] ESCALATION: TKT-012 | P1 | unresolved 1321 min
+[2026-04-29 11:09:02] ESCALATION: TKT-013 | P1 | unresolved 1321 min
+[2026-04-29 11:09:02] ESCALATION: TKT-015 | P1 | unresolved 1316 min
+[2026-04-29 11:09:02] ESCALATION: TKT-017 | P1 | unresolved 1316 min
+[2026-04-29 11:09:02] ESCALATION: TKT-019 | P1 | unresolved 1316 min
+[2026-04-29 11:09:02] ESCALATION: TKT-020 | P1 | unresolved 1255 min
+[2026-04-29 11:09:02] ESCALATION: TKT-022 | P1 | unresolved 1255 min
+[2026-04-29 11:09:02] ESCALATION: TKT-023 | P1 | unresolved 1255 min
+[2026-04-29 11:09:02] ESCALATION: TKT-025 | P1 | unresolved 1255 min
+[2026-04-29 11:09:02] ESCALATION: TKT-027 | P1 | unresolved 1255 min
+[2026-04-29 11:09:38] System check — CPU: 13.2%, RAM: 85.8%, Disk Free: 65.2%
+[2026-04-29 11:11:06] Daily report generated -- Total: 0, Open: 0, Closed: 0, SLA Breached: 0
+[2026-04-29 11:11:44] Monthly report generated -- 27 tickets, top issue: server down, top dept: IT
+[2026-04-29 11:12:23] Daily report generated -- Total: 0, Open: 0, Closed: 0, SLA Breached: 0
+[2026-04-29 11:12:23] Monthly report generated -- 27 tickets, top issue: server down, top dept: IT
