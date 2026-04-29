@@ -8,12 +8,12 @@ NetWork,,2026-04-28 10:48:58,IT,Server Down,Aishwarya Shivareddi,,P1,True,Open,T
 Incident,,2026-04-28 11:04:34,IT,Server Down,Aish,,P1,True,Open,TKT-008,Incident
 Service,,2026-04-28 11:04:34,HR,Password Reset,User,,P4,True,Open,TKT-009,Service Request
 Incident,,2026-04-28 13:07:40,IT,Server Down,Aish,,P1,True,Open,TKT-010,Incident
-Service,,2026-04-28 13:07:40,HR,Password Reset,User,,P4,False,Open,TKT-011,Service Request
+Service,,2026-04-28 13:07:40,HR,Password Reset,User,,P4,True,Open,TKT-011,Service Request
 Incident,,2026-04-28 13:07:40,IT,Server Down,Aish,,P1,True,Open,TKT-012,Incident
 Problem Management,,2026-04-28 13:07:40,IT,PROBLEM: Server Down (occurred 5 times),System,5,P1,True,Open,TKT-013,Problem Record
 Hardware,,2026-04-28 13:07:40,IT,Laptop Slow,Test,,P3,True,Open,TKT-014,Incident
 Incident,,2026-04-28 13:12:03,IT,Server Down,Aish,,P1,True,Open,TKT-015,Incident
-Service,,2026-04-28 13:12:03,HR,Password Reset,User,,P4,False,Open,TKT-016,Service Request
+Service,,2026-04-28 13:12:03,HR,Password Reset,User,,P4,True,Open,TKT-016,Service Request
 Incident,,2026-04-28 13:12:03,IT,Server Down,Aish,,P1,True,Open,TKT-017,Incident
 Hardware,,2026-04-28 13:12:03,IT,Laptop Slow,Test,,P3,True,Open,TKT-018,Incident
 Network,,2026-04-28 13:12:45,CS,server Down,Alka S,,P1,True,Open,TKT-019,Incident
@@ -26,3 +26,10 @@ Incident,,2026-04-28 14:13:27,IT,Server Down,Aish,,P1,True,Open,TKT-025,Incident
 Service,,2026-04-28 14:13:27,HR,Password Reset,User,,P4,False,Open,TKT-026,Service Request
 Incident,,2026-04-28 14:13:27,IT,Server Down,Aish,,P1,True,Open,TKT-027,Incident
 Hardware,,2026-04-28 14:13:27,IT,Laptop Slow,Test,,P3,True,Open,TKT-028,Incident
+Incident,,2026-04-29 13:29:51,IT,Server Down,Aish,,P1,False,Open,TKT-029,Incident
+Service,,2026-04-29 13:29:51,HR,Password Reset,User,,P4,False,Open,TKT-030,Service Request
+Incident,,2026-04-29 13:29:51,IT,Server Down,Aish,,P1,False,Open,TKT-031,Incident
+Hardware,,2026-04-29 13:29:51,IT,Laptop Slow,Test,,P3,False,Open,TKT-032,Incident
+Problem Management,,2026-04-29 13:29:51,IT,PROBLEM: Laptop Slow (occurred 5 times),System,5,P1,False,Open,TKT-033,Problem Record
+Change Request,,2026-04-29 13:34:33,AI,[CHANGE REQUEST] Server Down | Reason: Not Working,yashi,,P3,False,Open,TKT-034,Change Request
+Software,2026-04-29 13:36:16,2026-04-29 13:35:51,CS,Server Dwon,Yami Gautham,,P3,False,Closed,TKT-035,Incident

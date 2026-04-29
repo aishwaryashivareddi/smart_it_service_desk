@@ -126,7 +126,7 @@
     "status": "Open",
     "created_at": "2026-04-28 13:07:40",
     "closed_at": null,
-    "sla_breached": false,
+    "sla_breached": true,
     "type": "Service Request"
   },
   {
@@ -192,7 +192,7 @@
     "status": "Open",
     "created_at": "2026-04-28 13:12:03",
     "closed_at": null,
-    "sla_breached": false,
+    "sla_breached": true,
     "type": "Service Request"
   },
   {
@@ -350,6 +350,98 @@
     "created_at": "2026-04-28 14:13:27",
     "closed_at": null,
     "sla_breached": true,
+    "type": "Incident"
+  },
+  {
+    "ticket_id": "TKT-029",
+    "employee": "Aish",
+    "department": "IT",
+    "description": "Server Down",
+    "category": "Incident",
+    "priority": "P1",
+    "status": "Open",
+    "created_at": "2026-04-29 13:29:51",
+    "closed_at": null,
+    "sla_breached": false,
+    "type": "Incident"
+  },
+  {
+    "ticket_id": "TKT-030",
+    "employee": "User",
+    "department": "HR",
+    "description": "Password Reset",
+    "category": "Service",
+    "priority": "P4",
+    "status": "Open",
+    "created_at": "2026-04-29 13:29:51",
+    "closed_at": null,
+    "sla_breached": false,
+    "type": "Service Request"
+  },
+  {
+    "ticket_id": "TKT-031",
+    "employee": "Aish",
+    "department": "IT",
+    "description": "Server Down",
+    "category": "Incident",
+    "priority": "P1",
+    "status": "Open",
+    "created_at": "2026-04-29 13:29:51",
+    "closed_at": null,
+    "sla_breached": false,
+    "type": "Incident"
+  },
+  {
+    "ticket_id": "TKT-032",
+    "employee": "Test",
+    "department": "IT",
+    "description": "Laptop Slow",
+    "category": "Hardware",
+    "priority": "P3",
+    "status": "Open",
+    "created_at": "2026-04-29 13:29:51",
+    "closed_at": null,
+    "sla_breached": false,
+    "type": "Incident"
+  },
+  {
+    "ticket_id": "TKT-033",
+    "employee": "System",
+    "department": "IT",
+    "description": "PROBLEM: Laptop Slow (occurred 5 times)",
+    "category": "Problem Management",
+    "priority": "P1",
+    "status": "Open",
+    "created_at": "2026-04-29 13:29:51",
+    "closed_at": null,
+    "sla_breached": false,
+    "type": "Problem Record",
+    "occurrence_count": 5
+  },
+  {
+    "ticket_id": "TKT-034",
+    "employee": "yashi",
+    "department": "AI",
+    "description": "[CHANGE REQUEST] Server Down | Reason: Not Working",
+    "category": "Change Request",
+    "priority": "P3",
+    "status": "Open",
+    "created_at": "2026-04-29 13:34:33",
+    "closed_at": null,
+    "sla_breached": false,
+    "type": "Change Request"
+  },
+  {
+    "ticket_id": "TKT-035",
+    "employee": "Yami Gautham",
+    "department": "CS",
+    "description": "Server Dwon",
+    "category": "Software",
+    "priority": "P3",
+    "status": "Closed",
+    "created_at": "2026-04-29 13:35:51",
+    "closed_at": "2026-04-29 13:36:16",
+    "sla_breached": false,
     "type": "Incident"
   }
 ]
