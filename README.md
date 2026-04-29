@@ -5,27 +5,28 @@ This project implements ITIL principles to automate ticket management, SLA track
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
+```text
 smart_it_service_desk/
-├── main.py  
-├── tickets.py  
-├── monitor.py  
-├── reports.py  
-├── utils.py  
-├── logger.py  
-├── itil.py  
-├── requirements.txt  
-├── tests/  
-│   └── test_project.py  
-├── data/  
-│   ├── tickets.json  
-│   ├── logs.txt  
-│   ├── backup.csv  
-│   └── problems.json  
-└── README.md  
+├── main.py
+├── tickets.py
+├── monitor.py
+├── reports.py
+├── utils.py
+├── logger.py
+├── itil.py
+├── requirements.txt
+├── tests/
+│   └── test_project.py
+├── data/
+│   ├── tickets.json
+│   ├── logs.txt
+│   ├── backup.csv
+│   └── problems.json
+├── screenshots/
+└── README.md
 
----
 
 🚀 Features
 🎫 Ticket Management
@@ -42,6 +43,7 @@ Server Down	P1
 Internet Down	P2
 Laptop Slow	P3
 Password Reset	P4
+
 ⏱ SLA Tracking
 Priority	SLA
 P1	1 Hour
@@ -50,6 +52,7 @@ P3	8 Hours
 P4	24 Hours
 Detect SLA breaches
 Generate escalation alerts
+
 📊 System Monitoring
 
 Monitors:
@@ -64,13 +67,13 @@ RAM > 95%
 Disk < 10%
 
 ➡ Automatically creates high-priority (P1) ticket
+
 📈 Reports
 Daily Summary Report
 Monthly Trend Report
 Full Report
 
 Includes:
-
 Total tickets
 Open / Closed tickets
 High priority tickets
@@ -98,28 +101,24 @@ Encapsulation
 Polymorphism
 Static Methods
 Class Methods
-🧪 Testing
 
+Testing
 Run test cases:
 python -m pytest
+
 ⚙️ Installation & Run
 git clone https://github.com/aishwaryashivareddi/smart_it_service_desk.git
 cd smart_it_service_desk
 pip install -r requirements.txt
 python main.py
+
 📸 Screenshots
 Menu
-
 Create Ticket
 Ticket Details
 SLA & Escalation
-System Monitoring
 Daily Report
 Monthly Report
 
 👩‍💻 Author
 Aishwarya Shivareddi
-
-
----
-
