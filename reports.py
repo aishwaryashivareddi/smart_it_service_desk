@@ -66,14 +66,21 @@ class ReportGenerator:
 
         # Average resolution time (for closed tickets)
         resolution_times = []
+        
         for t in month_tickets:
-            if t["status"] == "Closed" and t.get("closed_at"):
-                created = Ticket.format_datetime(t["created_at"])
-                closed = Ticket.format_datetime(t["closed_at"])
-                delta = (closed - created).total_seconds() / 60
-                resolution_times.append(delta)
-
-        avg_resolution = (sum(resolution_times) / len(resolution_times)) if resolution_times else 0
+            if t.get("status") == "Closed" and t.get("closed_at"):
+                try:
+                    created = datetime.strptime(t["created_at"], "%Y-%m-%d %h:%M:%S")
+                    closed = datetime.strptime(t["closed_at"], "%Y-%m-%d %H:%M:%S")
+                    
+                    minutes = (closed -created).total_seconds() / 60 
+                    
+                    if minutes >= 0:
+                        resolution_times.append(minutes)
+                        
+                except Exception as e:
+                    log_event(f"Error calculating resolution time for {t.get('ticket_id')}: {e}", "ERROR")
+        avg_resolution = sum(resolution_times) / len(resolution_times) if resolution_times else 0                    
 
         # Department with most incidents
         dept_counter = Counter(t["department"] for t in month_tickets)

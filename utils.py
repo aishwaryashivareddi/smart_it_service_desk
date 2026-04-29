@@ -10,6 +10,7 @@ from datetime import datetime
 # ===== Paths =====
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 TICKETS_FILE = os.path.join(DATA_DIR, "tickets.json")
+PROBLEMS_FILE = os.path.join(DATA_DIR, "problems.json")
 LOG_FILE = os.path.join(DATA_DIR, "logs.txt")
 BACKUP_FILE = os.path.join(DATA_DIR, "backup.csv")
 
@@ -54,17 +55,17 @@ def ensure_data_dir():
 
 
 # ===== Logging (Q9) =====
-def log_event(message):
-    """Append a timestamped event to logs.txt."""
+def log_event(message, level="INFO"):
+    """Append a timestamped event to logs.txt with log level."""
     ensure_data_dir()
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    entry = f"[{timestamp}] {message}\n"
+    entry = f"[{timestamp}] [{level}] {message}\n"
+    
     try:
         with open(LOG_FILE, "a") as f:
             f.write(entry)
     except Exception as e:
-        print(f"Logging error: {e}")
-
+        print(f"Logging error: {e}")        
 
 # ===== JSON File Handling (Q8) =====
 def load_tickets():
@@ -91,6 +92,38 @@ def save_tickets(tickets):
         log_event(f"ERROR saving tickets: {e}")
         raise
 
+def load_problems():
+    """Load problem records from problems.json."""
+    ensure_data_dir()
+    try:
+        with open(PROBLEMS_FILE, "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        log_event("problems.json not found — starting fresh.", "WARNING")
+        return []
+    except json.JSONDecodeError:
+        log_event("ERROR: problems.json is corrupted — starting fresh.", "ERROR")
+        return []
+
+
+def save_problems(problems):
+    """Save problem records to problems.json."""
+    ensure_data_dir()
+    try:
+        with open(PROBLEMS_FILE, "w") as f:
+            json.dump(problems, f, indent=2, default=str)
+    except Exception as e:
+        log_event(f"ERROR saving problems: {e}", "ERROR")
+        raise
+
+
+def generate_problem_id(problems):
+    """Generate next problem ID like PRB-001."""
+    if not problems:
+        return "PRB-001"
+
+    last_num = max(int(p["problem_id"].split("-")[1]) for p in problems)
+    return f"PRB-{last_num + 1:03d}"
 
 # ===== CSV Backup (Q10) =====
 def backup_to_csv(tickets):

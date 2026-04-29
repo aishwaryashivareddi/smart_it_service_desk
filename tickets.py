@@ -14,8 +14,10 @@ from utils import (
     SLA_LIMITS,
     ESCALATION_THRESHOLDS,
     log_decorator,
+    load_problems,
+    save_problems,
+    generate_problem_id,
 )
-
 
 class Ticket:
     """Base ticket class."""
@@ -374,37 +376,43 @@ class TicketManager:
 
     # Problem management
     def _check_problem_threshold(self, description):
-        desc_lower = description.lower()
+        desc_lower = description.lower().strip()
 
         count = sum(
             1
             for ticket in self.tickets
-            if ticket["description"].lower() == desc_lower
+            if ticket["description"].lower().strip() == desc_lower
             and ticket.get("type") != "Problem Record"
         )
 
         if count >= 5:
+            problems = load_problems()
+
             existing = any(
-                ticket
-                for ticket in self.tickets
-                if ticket.get("type") == "Problem Record"
-                and desc_lower in ticket["description"].lower()
+                problem["description"].lower().strip() == desc_lower
+                for problem in problems
             )
 
             if not existing:
-                ticket_id = generate_ticket_id(self.tickets)
-                problem = ProblemRecord(ticket_id, description, count)
+                problem = {
+                    "problem_id": generate_problem_id(problems),
+                    "description": description.strip(),
+                    "occurrence_count": count,
+                    "status": "Open",
+                    "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                }
 
-                self.tickets.append(problem.to_dict())
-                self._save()
+                problems.append(problem)
+                save_problems(problems)
 
                 log_event(
-                    f"PROBLEM RECORD auto-created: {ticket_id} | "
-                    f"'{description}' occurred {count} times"
+                    f"PROBLEM RECORD created in problems.json: "
+                    f"{description} occurred {count} times",
+                    "CRITICAL"
                 )
 
                 print(
-                    f"\n  [ALERT] PROBLEM RECORD {ticket_id} auto-created -- "
+                    f"\n  [ALERT] PROBLEM RECORD created in problems.json -- "
                     f"'{description}' repeated {count} times!"
                 )
 

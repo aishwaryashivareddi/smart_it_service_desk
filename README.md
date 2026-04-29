@@ -98,6 +98,7 @@ Encapsulation
 Polymorphism
 Static Methods
 Class Methods
+
 🧪 Testing
 
 Run test cases:
@@ -107,9 +108,9 @@ git clone https://github.com/aishwaryashivareddi/smart_it_service_desk.git
 cd smart_it_service_desk
 pip install -r requirements.txt
 python main.py
+
 📸 Screenshots
 Menu
-
 Create Ticket
 Ticket Details
 SLA & Escalation

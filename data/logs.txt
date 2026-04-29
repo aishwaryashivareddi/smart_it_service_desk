@@ -311,3 +311,132 @@
 [2026-04-29 13:36:28] ESCALATION: TKT-027 | P1 | unresolved 1403 min
 [2026-04-29 13:36:31] System check — CPU: 9.6%, RAM: 80.7%, Disk Free: 65.3%
 [2026-04-29 13:54:15] Application interrupted by user.
+[2026-04-29 16:02:16] Application started.
+[2026-04-29 16:02:50] Backup created: 35 tickets exported to backup.csv
+[2026-04-29 16:02:50] Ticket created: TKT-036 | P1 | Incident | Server Down
+[2026-04-29 16:03:13] Backup created: 35 tickets exported to backup.csv
+[2026-04-29 16:03:13] Ticket updated: TKT-036 | Open -> In Progress
+[2026-04-29 16:03:19] Backup created: 35 tickets exported to backup.csv
+[2026-04-29 16:03:19] Ticket closed: TKT-036
+[2026-04-29 16:03:24] Backup created: 34 tickets exported to backup.csv
+[2026-04-29 16:03:24] Ticket deleted: TKT-036
+[2026-04-29 16:03:26] SLA BREACHED: TKT-021 | P4 | Password Reset
+[2026-04-29 16:03:26] SLA BREACHED: TKT-026 | P4 | Password Reset
+[2026-04-29 16:03:26] SLA BREACHED: TKT-029 | P1 | Server Down
+[2026-04-29 16:03:26] SLA BREACHED: TKT-031 | P1 | Server Down
+[2026-04-29 16:03:26] SLA BREACHED: TKT-033 | P1 | PROBLEM: Laptop Slow (occurred 5 times)
+[2026-04-29 16:03:26] Backup created: 34 tickets exported to backup.csv
+[2026-04-29 16:03:27] ESCALATION: TKT-004 | P1 | unresolved 1759 min
+[2026-04-29 16:03:27] ESCALATION: TKT-007 | P1 | unresolved 1754 min
+[2026-04-29 16:03:27] ESCALATION: TKT-008 | P1 | unresolved 1738 min
+[2026-04-29 16:03:27] ESCALATION: TKT-010 | P1 | unresolved 1615 min
+[2026-04-29 16:03:27] ESCALATION: TKT-012 | P1 | unresolved 1615 min
+[2026-04-29 16:03:27] ESCALATION: TKT-013 | P1 | unresolved 1615 min
+[2026-04-29 16:03:27] ESCALATION: TKT-015 | P1 | unresolved 1611 min
+[2026-04-29 16:03:27] ESCALATION: TKT-017 | P1 | unresolved 1611 min
+[2026-04-29 16:03:27] ESCALATION: TKT-019 | P1 | unresolved 1610 min
+[2026-04-29 16:03:27] ESCALATION: TKT-020 | P1 | unresolved 1550 min
+[2026-04-29 16:03:27] ESCALATION: TKT-022 | P1 | unresolved 1550 min
+[2026-04-29 16:03:27] ESCALATION: TKT-023 | P1 | unresolved 1550 min
+[2026-04-29 16:03:27] ESCALATION: TKT-025 | P1 | unresolved 1550 min
+[2026-04-29 16:03:27] ESCALATION: TKT-027 | P1 | unresolved 1550 min
+[2026-04-29 16:03:27] ESCALATION: TKT-029 | P1 | unresolved 153 min
+[2026-04-29 16:03:27] ESCALATION: TKT-031 | P1 | unresolved 153 min
+[2026-04-29 16:03:27] ESCALATION: TKT-033 | P1 | unresolved 153 min
+[2026-04-29 16:03:30] System check — CPU: 51.6%, RAM: 93.3%, Disk Free: 65.3%
+[2026-04-29 16:03:38] Daily report generated -- Total: 7, Open: 6, Closed: 1, SLA Breached: 3
+[2026-04-29 16:03:40] ERROR: TypeError: log_event() takes 1 positional argument but 2 were given
+[2026-04-29 16:03:41] Daily report generated -- Total: 7, Open: 6, Closed: 1, SLA Breached: 3
+[2026-04-29 16:03:41] ERROR: TypeError: log_event() takes 1 positional argument but 2 were given
+[2026-04-29 16:09:54] Application interrupted by user.
+[2026-0429 16:10:00] [INFO] Application started.
+[2026-0429 16:10:02] [ERROR] Error calculating resolution time for TKT-035: 'h' is a bad directive in format '%Y-%m-%d %h:%M:%S'
+[2026-0429 16:10:02] [INFO] Monthly report generated -- 34 tickets, top issue: server down, top dept: IT
+[2026-0429 16:11:09] [ERROR] Error calculating resolution time for TKT-035: 'h' is a bad directive in format '%Y-%m-%d %h:%M:%S'
+[2026-0429 16:11:09] [INFO] Monthly report generated -- 34 tickets, top issue: server down, top dept: IT
+[2026-0429 16:25:15] [ERROR] Error calculating resolution time for TKT-035: 'h' is a bad directive in format '%Y-%m-%d %h:%M:%S'
+[2026-0429 16:25:15] [INFO] Monthly report generated -- 34 tickets, top issue: server down, top dept: IT
+[2026-0429 16:29:15] [INFO] Application interrupted by user.
+[2026-04-29 16:29:25] [INFO] Application started.
+[2026-04-29 16:29:48] [INFO] Backup created: 35 tickets exported to backup.csv
+[2026-04-29 16:29:48] [INFO] Ticket created: TKT-036 | P1 | Incident | Server Down
+[2026-04-29 16:29:48] [CRITICAL] PROBLEM RECORD created in problems.json: Server Down occurred 15 times
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-004 | P1 | unresolved 1786 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-007 | P1 | unresolved 1781 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-008 | P1 | unresolved 1765 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-010 | P1 | unresolved 1642 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-012 | P1 | unresolved 1642 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-013 | P1 | unresolved 1642 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-015 | P1 | unresolved 1638 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-017 | P1 | unresolved 1638 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-019 | P1 | unresolved 1637 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-020 | P1 | unresolved 1577 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-022 | P1 | unresolved 1577 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-023 | P1 | unresolved 1577 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-025 | P1 | unresolved 1577 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-027 | P1 | unresolved 1577 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-029 | P1 | unresolved 180 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-031 | P1 | unresolved 180 min
+[2026-04-29 16:30:29] [INFO] ESCALATION: TKT-033 | P1 | unresolved 180 min
+[2026-04-29 16:30:32] [INFO] System check — CPU: 16.4%, RAM: 90.1%, Disk Free: 65.2%
+[2026-04-29 16:30:36] [INFO] Daily report generated -- Total: 8, Open: 7, Closed: 1, SLA Breached: 3
+[2026-04-29 16:30:38] [ERROR] Error calculating resolution time for TKT-035: 'h' is a bad directive in format '%Y-%m-%d %h:%M:%S'
+[2026-04-29 16:30:38] [INFO] Monthly report generated -- 35 tickets, top issue: server down, top dept: IT
+[2026-04-29 16:30:39] [INFO] Daily report generated -- Total: 8, Open: 7, Closed: 1, SLA Breached: 3
+[2026-04-29 16:30:39] [ERROR] Error calculating resolution time for TKT-035: 'h' is a bad directive in format '%Y-%m-%d %h:%M:%S'
+[2026-04-29 16:30:39] [INFO] Monthly report generated -- 35 tickets, top issue: server down, top dept: IT
+[2026-04-29 16:36:59] [INFO] Application interrupted by user.
+[2026-04-29 16:37:07] [INFO] Application started.
+[2026-04-29 16:37:34] [INFO] Backup created: 36 tickets exported to backup.csv
+[2026-04-29 16:37:34] [INFO] Ticket created: TKT-037 | P1 | Incident | Server Down
+[2026-04-29 16:37:58] [INFO] Invalid menu input: 'TKT-037'
+[2026-04-29 16:38:10] [INFO] Backup created: 36 tickets exported to backup.csv
+[2026-04-29 16:38:10] [INFO] Ticket updated: TKT-037 | Open -> In Progress
+[2026-04-29 16:38:16] [INFO] Backup created: 36 tickets exported to backup.csv
+[2026-04-29 16:38:16] [INFO] Ticket closed: TKT-037
+[2026-04-29 16:38:24] [INFO] Backup created: 35 tickets exported to backup.csv
+[2026-04-29 16:38:24] [INFO] Ticket deleted: TKT-037
+[2026-04-29 16:38:27] [INFO] Invalid menu input: '7TKT-037'
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-004 | P1 | unresolved 1794 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-007 | P1 | unresolved 1789 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-008 | P1 | unresolved 1773 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-010 | P1 | unresolved 1650 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-012 | P1 | unresolved 1650 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-013 | P1 | unresolved 1650 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-015 | P1 | unresolved 1646 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-017 | P1 | unresolved 1646 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-019 | P1 | unresolved 1645 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-020 | P1 | unresolved 1585 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-022 | P1 | unresolved 1585 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-023 | P1 | unresolved 1585 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-025 | P1 | unresolved 1585 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-027 | P1 | unresolved 1585 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-029 | P1 | unresolved 188 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-031 | P1 | unresolved 188 min
+[2026-04-29 16:38:30] [INFO] ESCALATION: TKT-033 | P1 | unresolved 188 min
+[2026-04-29 16:38:33] [INFO] System check — CPU: 8.2%, RAM: 87.3%, Disk Free: 65.2%
+[2026-04-29 16:38:44] [INFO] Daily report generated -- Total: 8, Open: 7, Closed: 1, SLA Breached: 3
+[2026-04-29 16:38:47] [ERROR] Error calculating resolution time for TKT-035: 'h' is a bad directive in format '%Y-%m-%d %h:%M:%S'
+[2026-04-29 16:38:47] [INFO] Monthly report generated -- 35 tickets, top issue: server down, top dept: IT
+[2026-04-29 16:49:03] [INFO] Application interrupted by user.
+[2026-04-29 16:49:12] [INFO] Application started.
+[2026-04-29 16:49:44] [INFO] Backup created: 1 tickets exported to backup.csv
+[2026-04-29 16:49:44] [INFO] Ticket created: TKT-001 | P1 | Incident | Server Down
+[2026-04-29 16:50:13] [INFO] Backup created: 1 tickets exported to backup.csv
+[2026-04-29 16:50:13] [INFO] Ticket updated: TKT-001 | Open -> In Progress
+[2026-04-29 16:50:44] [INFO] Backup created: 1 tickets exported to backup.csv
+[2026-04-29 16:50:44] [INFO] Ticket closed: TKT-001
+[2026-04-29 16:50:55] [INFO] Backup skipped — no tickets to export.
+[2026-04-29 16:50:55] [INFO] Ticket deleted: TKT-001
+[2026-04-29 16:51:07] [INFO] System check — CPU: 12.0%, RAM: 92.1%, Disk Free: 65.2%
+[2026-04-29 16:51:30] [INFO] Daily report generated -- Total: 0, Open: 0, Closed: 0, SLA Breached: 0
+[2026-04-29 16:52:01] [INFO] Daily report generated -- Total: 0, Open: 0, Closed: 0, SLA Breached: 0
+[2026-04-29 17:01:55] [INFO] Application interrupted by user.
+[2026-04-29 17:03:56] [INFO] Backup created: 1 tickets exported to backup.csv
+[2026-04-29 17:03:56] [INFO] Ticket created: TKT-001 | P1 | Incident | Server Down
+[2026-04-29 17:03:56] [INFO] Backup created: 2 tickets exported to backup.csv
+[2026-04-29 17:03:56] [INFO] Ticket created: TKT-002 | P4 | Service Request | Password Reset
+[2026-04-29 17:03:56] [INFO] Backup created: 3 tickets exported to backup.csv
+[2026-04-29 17:03:56] [INFO] Ticket created: TKT-003 | P1 | Incident | Server Down
+[2026-04-29 17:03:56] [INFO] Backup created: 4 tickets exported to backup.csv
+[2026-04-29 17:03:56] [INFO] Ticket created: TKT-004 | P3 | Incident | Laptop Slow
