@@ -123,11 +123,3 @@ Aishwarya Shivareddi
 
 ---
 
-# 🚀 FINAL STEP (VERY IMPORTANT)
-
-After pasting:
-
-```bash
-git add README.md
-git commit -m "Final clean README"
-git push origin main
