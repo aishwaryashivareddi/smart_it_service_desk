@@ -70,7 +70,7 @@ class ReportGenerator:
         for t in month_tickets:
             if t.get("status") == "Closed" and t.get("closed_at"):
                 try:
-                    created = datetime.strptime(t["created_at"], "%Y-%m-%d %h:%M:%S")
+                    created = datetime.strptime(t["created_at"], "%Y-%m-%d %H:%M:%S")
                     closed = datetime.strptime(t["closed_at"], "%Y-%m-%d %H:%M:%S")
                     
                     minutes = (closed -created).total_seconds() / 60 
